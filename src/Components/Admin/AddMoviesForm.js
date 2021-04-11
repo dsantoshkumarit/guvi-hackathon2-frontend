@@ -3,7 +3,7 @@ import axios from "axios";
 import { Row, Col, Form, Button, Alert } from "react-bootstrap";
 
 const AddMoviesForm = (props) => {
-  const api = axios.create({ baseURL: "http://localhost:3002" });
+  const api = axios.create({ baseURL: " https://guvihackathonbackend.herokuapp.com/" });
   const [posted, setPosted] = useState(false);
   const [validated, setValidated] = useState(false);
   const [moviename, setMovieName] = useState("");
